@@ -15,6 +15,10 @@ export const login = (email, password) => dispatch => {
 
 };
 
-export const signUp = (credentials) => dispatch => {
+export const signUp = (email, password, passwordConfirmation) => dispatch => {
+  
+};
+
+export const forgotPassword = (email) => dispatch => {
   
 };
